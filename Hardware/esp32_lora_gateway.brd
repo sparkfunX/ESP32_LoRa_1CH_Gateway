@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4971,6 +4971,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -5110,8 +5113,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="RESET" x="1.905" y="3.175" rot="R270">
 <attribute name="PROD_ID" value="SWCH-13065" x="1.905" y="3.175" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="D3" library="SparkFun-LED" package="LED-0603" value="BLUE" x="19.304" y="2.54" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="19.304" y="0" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D3" library="SparkFun-LED" package="LED-0603" value="GREEN" x="19.304" y="2.54" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="19.304" y="0" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="1k" x="17.78" y="2.54" rot="R270">
 <attribute name="PROD_ID" value="RES-07856" x="13.97" y="1.27" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5932,6 +5935,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="9.96858125" y1="5.05941875" x2="9.96858125" y2="2.22208125" width="0.1524" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 </eagle>
