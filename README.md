@@ -1,6 +1,8 @@
 SparkX ESP32 LoRa Single-Channel Gateway
 ========================================
 
+This repo is the original SparkX version. Please see the [SparkFun repo](https://github.com/sparkfun/ESP32_LoRa_1Ch_Gateway/) for the latest and greatest.
+
 [![SparkX ESP32 LoRa Single-Channel Gateway](https://cdn.sparkfun.com//assets/parts/1/3/1/7/6/14893-ESP32_LoRa_1-Channel_Gateway-01.jpg)](https://www.sparkfun.com/products/14893)
 
 [*SparkX  ESP32 LoRa Single-Channel Gateway (SPX-14893)*](https://www.sparkfun.com/products/14893)
